@@ -21,7 +21,15 @@ public class stepDefination extends base {
 	@Given("^Navigate to \"([^\"]*)\" Site$")
 	public void navigate_to_Site(String arg1) throws Throwable {
 	    // Write code here that turns the phrase above into concrete actions
+		// Write code here that turns the phrase above into concrete actions
+		// Write code here that turns the phrase above into concrete actions
+		// Write code here that turns the phrase above into concrete actions
 		driver.get(arg1);
+		System.out.println ("Test 1");
+		System.out.println ("Test 2");
+		System.out.println ("Test 22");
+		System.out.println ("Test 132");
+		
 	}
 
 	@Given("^Click on Login link in home page to land on Secure sign in Page$")
